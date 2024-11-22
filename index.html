@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infobits</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <!--Navigation Bar-->
+        <nav class="nav container">
+            <h1>Info<span>Bits</span></h1>
+            <div class="click">
+                <a href="login.html"><button class="login-button">Login</button></a>
+            </div>
+        </nav>
+    </header>
+
+    <!--Home Message-->
+    <div class="home-message">
+        <h1>Welcome to the <span>blog.</span></h1><br>
+        <p>Here, You will find in-depth information about computer hardware & software</p>
+    </div>
+
+    <!--Post Categories-->
+    <div class="post-categories">
+        <button type="button" onclick="filterArticles('all')">Blog</button>
+        <button type="button" onclick="filterArticles('hardware')">Hardware</button>
+        <button type="button" onclick="filterArticles('software')">Software</button>
+    </div>
+
+    <!--Post Container-->
+    <div class="post-container">
+
+        <div class="post-card hardware">
+            <img src="Home/Hard.jpeg" alt="Hardware.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What is Hardware ?</h3>
+            <p class="post-content">Computer hardware is a collective term used to describe any of the physical
+                components of an analog
+                or digital computer. The term hardware distinguishes the tangible aspects of a computing device from
+                software, which consists of written ....</p>
+            <a href="Articles/article_1.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card hardware">
+            <img src="Home/Hard_Mo.jpg" alt="Hard_Mo.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What Is A Motherboard ?</h3>
+            <p class="post-content">A motherboard is the main printed circuit board (PCB) in a computer. The motherboard
+                is a computer's central communications backbone connectivity point, through which all components and
+                external peripherals connect ....</p>
+            <a href="Articles/article_6.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card software">
+            <img src="Home/Soft.jpeg" alt="Soft.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What is Software ?</h3>
+            <p class="post-content">Software is a set of instructions, data or programs used to operate computers and
+                execute specific tasks.
+                It is the opposite of hardware, which describes the physical aspects of a computer. Software is a
+                generic term
+                used to refer to applications ....</p>
+            <a href="Articles/article_2.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card hardware">
+            <img src="Home/Processor_1.jpg" alt="Processor_2.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What is Processor ?</h3>
+            <p class="post-content">A processor (CPU) is the logic circuitry that responds to and processes the basic
+                instructions that drive a computer. The CPU is seen as the main and most crucial integrated circuitry
+                (IC) chip in a computer, as it
+                is responsible for interpreting ....</p>
+            <a href="Articles/article_7.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card hardware">
+            <img src="Home/Graphics_2.jpg" alt="Graphics_2.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What Is A Graphics Processing Unit ?</h3>
+            <p class="post-content">A graphics processing unit (GPU) is a computer chip that renders graphics and images
+                by performing rapid
+                mathematical calculations. GPUs are used for both professional and personal computing. Originally, GPUs
+                were ....</p>
+            <a href="Articles/article_8.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card software">
+            <img src="Home/Soft_3.jpg" alt="Soft_3.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">How Does Software Work?</h3>
+            <p class="post-content">All software provides the directions and data computers need to work and meet users'
+                needs. However, the two different types -- application software and system software -- work in
+                distinctly different ways. Application software consists of many ....</p>
+            <a href="Articles/article_3.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card software">
+            <img src="Home/Soft_D.jpg" alt="Soft_D.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">How To Design And Implementation Of Software ?</h3>
+            <p class="post-content">The software development lifecycle is a framework that project managers use to
+                describe the stages and tasks associated with designing software. The first steps in the design
+                lifecycle are planning the effort ....</p>
+            <a href="Articles/article_4.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card software">
+            <img src="Home/Soft_M.jpg" alt="Soft_M.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title"> Maintain Software Quality </h3>
+            <p class="post-content">Software quality measures if the software meets both its functional and
+                nonfunctional requirements. Functional requirements identify what the software should do. They include
+                technical details, data .... </p>
+            <a href="Articles/article_5.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card software">
+            <img src="Home/Opsys_1.jpg" alt="Opsys_1.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What Is An Operating System (OS)?</h3>
+            <p class="post-content">An operating system (OS) is the program that, after being initially loaded into the
+                computer by a boot
+                program, manages all the other application programs in a computer. The application programs use the OS
+                ....</p>
+            <a href="Articles/article_9.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card hardware">
+            <img src="Home/Ram_2.jpg" alt="Ram_2.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What Is RAM ?</h3>
+            <p class="post-content">Random access memory (RAM) is the hardware in a computing device that provides
+                temporary storage for the
+                operating system (OS), software programs and any other data in current use so they're quickly available
+                to the device's processor ....</p>
+            <a href="Articles/article_10.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card hardware">
+            <img src="Home/Nic_1.webp" alt="Nic_1.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What Is Network Interface Card ?</h3>
+            <p class="post-content">A network interface card (NIC) is a hardware component, typically a circuit board or
+                chip, installed on a
+                computer so it can connect to a network. Modern NICs provide functionality to computers, such as support
+                for input/output interrupt ....</p>
+            <a href="Articles/article_11.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <div class="post-card software">
+            <img src="Home/Bios_2.jpg" alt="Bios_2.jpeg">
+            <p class="post-date">14-Nov-24</p>
+            <h3 class="post-title">What is BIOS ?</h3>
+            <p class="post-content">BIOS (basic input/output system) is the program a computer's microprocessor uses to
+                start the computer
+                system after it is powered on. It also manages data flow between the computer's operating system (OS)
+                and attached devices, such as the hard disk, video adapter ....</p>
+            <a href="Articles/article_12.html"><button class="post-button">Read More</button></a>
+        </div>
+
+        <!--Footer-->
+        <footer>
+            <div class="footer-content">
+                <div class="footer-text">
+                    <h1>Info<span>Bits</span></h1>
+                    <p>Email : Infobits@blog.com</p>
+                    <p>Phone : 0775555555</p>
+                    <p class="copy">© Copyright 2024 Infobits. All rights reserved.</p>
+                </div>
+                <div class="footer-social">
+                    <div><img src="Social/LinkedIn.png">
+                        <p>LinkedIn</p>
+                    </div>
+                    <div><img src="Social/Facebook.png">
+                        <p>Facebook</p>
+                    </div>
+                    <div><img src="Social/Whatsapp.png">
+                        <p>Whatsapp</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>
