@@ -146,6 +146,7 @@ header {
     justify-content: center;
     gap: 2rem;
     font-family: font1;
+    margin: 20px;
 }
 
 .post-card {
